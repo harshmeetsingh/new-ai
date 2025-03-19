@@ -1,0 +1,33 @@
+.question-text {
+  display: flex;
+  max-width: 240px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.builder-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.type-component-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 240px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+.multichoice {
+}
+.multichoice > button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 20px;
+}
+.multichoice > input {
+  padding: 4px;
+  height: 20px;
+  border-radius: 10px;
+}

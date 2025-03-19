@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.survey-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+div {
+  padding: 5px;
+}
+label {
+  padding: 5px;
+}
